@@ -13,7 +13,7 @@ module.exports = {
         if (err) next(err);
         else
           res.json({
-            status: "1"
+            status: 1
             //message: "User added successfully!!!",
             //data: null
           });

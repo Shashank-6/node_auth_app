@@ -15,7 +15,7 @@ app.get('/', function(req, res){
 res.json({"app" : "Build REST API with node.js"});
 });
 // public route
-app.use('/users', users);
+app.use('/api/v1/users', users);
 
 
 function validateUser(req, res, next) {
